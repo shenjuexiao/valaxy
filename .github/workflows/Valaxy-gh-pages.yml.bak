@@ -1,3 +1,5 @@
+# valaxy 自带 gh-pages.yml
+# valaxy.site/zh/guide/deploy
 
 name: GitHub Pages
 
@@ -10,6 +12,8 @@ on:
       - master
       - valaxy
 
+# 20260804
+# 增加权限
 permissions:
   contents: write
   pages: write
